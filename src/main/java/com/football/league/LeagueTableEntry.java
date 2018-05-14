@@ -202,4 +202,10 @@ public class LeagueTableEntry {
 	public void setPoints(int points) {
 		this.points = points;
 	}
+	
+	@Override
+	public String toString()
+	{
+		return "LeagueTableEntry [teamName=" + teamName + ", goalsFor=" + goalsFor + ", goalDifference=" + goalDifference + ", points=" + points + "]";
+	}
 }
